@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "localhost";
-    private $dbname = "dgroup2738";
-    private $username = "postgres";
-    private $password = "StayPost1523##";
+    private $host = "your_host";
+    private $dbname = "your_database";
+    private $username = "your_username";
+    private $password = "your_password";
     private $conn;
 
     public function connect() {
